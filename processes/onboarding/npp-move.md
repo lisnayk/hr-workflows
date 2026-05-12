@@ -1,0 +1,27 @@
+# Переведення НПП
+
+
+### Перелік необхідних документів
+
+- Заява або ініціатива адміністрації
+
+#### Діаграма flowchart (short)
+
+```mermaid
+flowchart TB
+    TITLE(["Переведення НПП"])
+    TITLE --> APPLICATION["НПП: Подає заяви за необхідності"]
+    subgraph "CRM"
+        direction LR
+        APPROVE["Відділ кадрів: Готує проекту наказу про переведення"]
+        APPROVE --> HEAD_APPROVE["Відділ кадрів: Керівник затверджує проект наказу"]
+        HEAD_APPROVE --> PROVODKA["Відділ кадрів: Проводить наказ"]
+        PROVODKA  -- "Розсилає наказ" --> V1["Розрахунковий відділ"]
+        PROVODKA  -- "Розсилає наказ" --> V2["Планово-фінансовий відділ"]
+    end
+    APPLICATION --> CRM
+    PROVODKA -- "Розсилає наказ" ---> V3["Внутрішні відділи підприємства"]
+style PROVODKA fill: #dfd
+style HEAD_APPROVE fill: #dfd
+style APPROVE fill: #dfd
+```
