@@ -16,6 +16,7 @@
 
 *   [`processes/onboarding/`](processes/onboarding/requirements.md) — технічні та функціональні вимоги до процесу прийому.
     *   [`hiring-legal-framework.md`](processes/onboarding/hiring-legal-framework.md) — нормативна модель прийняття на роботу в ЗВО за законодавством України (схеми, строки, розбіжності з поточним процесом).
+    *   [`ispro-hiring-order.md`](processes/onboarding/ispro-hiring-order.md) — прийом в ISpro типовою операцією «Прийом» чи довільним наказом: шляхи кадрів і бухгалтерії, захист від відкату.
 *   [`processes/leave-management/`](processes/leave-management/requirements.md) — вимоги до обліку відпусток та табелювання.
 *   [`processes/offboarding/`](processes/offboarding/requirements.md) — вимоги до процесу звільнення.
 *   [`processes/professional-development/`](processes/professional-development/requirements.md) — моніторинг атестацій та сертифікатів.
