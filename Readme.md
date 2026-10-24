@@ -12,12 +12,20 @@
 4.  [**Підвищення кваліфікації та атестація**](processes/professional-development/requirements.md) — моніторинг термінів, сертифікати, зміна категорій.
 5.  [**Інтеграція з бухгалтерією (Salary Sync)**](processes/salary-integration/requirements.md) — передача даних для нарахування заробітної плати та премій.
 
+## Прийом на роботу: правова модель і накази в ISPRO 8
+
+Аналітичні матеріали, на які спирається проєктування процесу прийому в CRM та інтеграції з ISPRO 8:
+
+*   [**Нормативна модель прийняття на роботу в ЗВО**](processes/onboarding/hiring-legal-framework.md) — порядок заміщення посад за категоріями, конкурсний відбір НПП, обов'язкові кроки й строки (ДПС, військовий облік, ознайомлення), перелік документів, розбіжності з поточним процесом і правила валідації для CRM / ISPRO 8.
+*   [**Прийом в ISpro: типова операція «Прийом» чи довільний наказ**](processes/onboarding/ispro-hiring-order.md) — схема руху наказу і альтернативних шляхів роботи кадрів і розрахункового відділу, хто що робить на кожному з 8 етапів, що отримує розрахунковий модуль, захист проведеного наказу від відкату та вимоги до інтеграції.
+*   [**Довідник параметрів захисту кадрових наказів**](processes/onboarding/ispro-order-protection-settings.md) — де в ISpro вмикається кожне блокування, рекомендовані значення, посилання на документацію виробника (doc.ispro.ua) і перелік офіційних керівництв для адміністратора та користувача модуля «Облік кадрів».
+
 ## Структура проекту
 
 *   [`processes/onboarding/`](processes/onboarding/requirements.md) — технічні та функціональні вимоги до процесу прийому.
     *   [`hiring-legal-framework.md`](processes/onboarding/hiring-legal-framework.md) — нормативна модель прийняття на роботу в ЗВО за законодавством України (схеми, строки, розбіжності з поточним процесом).
-    *   [`ispro-hiring-order.md`](processes/onboarding/ispro-hiring-order.md) — прийом в ISpro типовою операцією «Прийом» чи довільним наказом: шляхи кадрів і бухгалтерії, захист від відкату.
-    *   [`ispro-order-protection-settings.md`](processes/onboarding/ispro-order-protection-settings.md) — довідник параметрів захисту кадрових наказів в ISpro з посиланнями на документацію виробника.
+    *   [`ispro-hiring-order.md`](processes/onboarding/ispro-hiring-order.md) — прийом в ISpro типовою операцією «Прийом» чи довільним наказом: шляхи кадрів і розрахункового відділу, захист від відкату.
+    *   [`ispro-order-protection-settings.md`](processes/onboarding/ispro-order-protection-settings.md) — довідник параметрів захисту кадрових наказів в ISpro з посиланнями на документацію виробника, керівництва адміністратора й користувача.
 *   [`processes/leave-management/`](processes/leave-management/requirements.md) — вимоги до обліку відпусток та табелювання.
 *   [`processes/offboarding/`](processes/offboarding/requirements.md) — вимоги до процесу звільнення.
 *   [`processes/professional-development/`](processes/professional-development/requirements.md) — моніторинг атестацій та сертифікатів.
