@@ -52,6 +52,9 @@
       .grid { stroke: #e2e8f0; stroke-width: 1; stroke-dasharray: 4 4; }
       .sep { stroke: #e2e8f0; stroke-width: 1; }
       .badge circle.bg { fill: #ffffff; stroke: currentColor; stroke-width: 1.4; }
+      .num rect { fill: #334155; stroke: #ffffff; stroke-width: 1.5; }
+      .num.b rect { fill: #b91c1c; }
+      .num text { text-anchor: middle; font-size: 11px; font-weight: 700; fill: #ffffff; }
     </style>
   </defs>
 
@@ -242,6 +245,32 @@
   <path d="M1220.5,698 L1237.5,698" class="bflow"/>
   <path d="M1395.5,698 L1412.5,698" class="bflow"/>
 
+  <!-- Номери дій: нижній правий кут блоку (у блоці з двох частин — кут кожної частини) -->
+  <g class="num" transform="translate(345.5,250)"><rect x="-11" y="-9" width="22" height="18" rx="9"/><text y="4">1</text></g>
+  <g class="num" transform="translate(520.5,344)"><rect x="-11" y="-9" width="22" height="18" rx="9"/><text y="4">2</text></g>
+  <g class="num" transform="translate(520.5,398)"><rect x="-11" y="-9" width="22" height="18" rx="9"/><text y="4">3</text></g>
+  <g class="num" transform="translate(695.5,250)"><rect x="-11" y="-9" width="22" height="18" rx="9"/><text y="4">4</text></g>
+  <g class="num" transform="translate(695.5,515)"><rect x="-11" y="-9" width="22" height="18" rx="9"/><text y="4">5</text></g>
+  <g class="num" transform="translate(695.5,581)"><rect x="-11" y="-9" width="22" height="18" rx="9"/><text y="4">6</text></g>
+  <g class="num" transform="translate(870.5,398)"><rect x="-11" y="-9" width="22" height="18" rx="9"/><text y="4">7</text></g>
+  <g class="num" transform="translate(1045.5,398)"><rect x="-11" y="-9" width="22" height="18" rx="9"/><text y="4">8</text></g>
+  <g class="num" transform="translate(1045.5,250)"><rect x="-11" y="-9" width="22" height="18" rx="9"/><text y="4">9</text></g>
+  <g class="num" transform="translate(1220.5,398)"><rect x="-11" y="-9" width="22" height="18" rx="9"/><text y="4">10</text></g>
+  <g class="num" transform="translate(1220.5,515)"><rect x="-11" y="-9" width="22" height="18" rx="9"/><text y="4">11</text></g>
+  <g class="num" transform="translate(1220.5,250)"><rect x="-11" y="-9" width="22" height="18" rx="9"/><text y="4">12</text></g>
+  <g class="num" transform="translate(1395.5,398)"><rect x="-11" y="-9" width="22" height="18" rx="9"/><text y="4">13</text></g>
+  <g class="num" transform="translate(1570.5,398)"><rect x="-11" y="-9" width="22" height="18" rx="9"/><text y="4">14</text></g>
+  <g class="num" transform="translate(1570.5,581)"><rect x="-11" y="-9" width="22" height="18" rx="9"/><text y="4">15</text></g>
+
+  <g class="num b" transform="translate(345.5,760)"><rect x="-14" y="-9" width="28" height="18" rx="9"/><text y="4">Б1</text></g>
+  <g class="num b" transform="translate(520.5,760)"><rect x="-14" y="-9" width="28" height="18" rx="9"/><text y="4">Б2</text></g>
+  <g class="num b" transform="translate(695.5,760)"><rect x="-14" y="-9" width="28" height="18" rx="9"/><text y="4">Б3</text></g>
+  <g class="num b" transform="translate(870.5,760)"><rect x="-14" y="-9" width="28" height="18" rx="9"/><text y="4">Б4</text></g>
+  <g class="num b" transform="translate(1045.5,760)"><rect x="-14" y="-9" width="28" height="18" rx="9"/><text y="4">Б5</text></g>
+  <g class="num b" transform="translate(1220.5,760)"><rect x="-14" y="-9" width="28" height="18" rx="9"/><text y="4">Б6</text></g>
+  <g class="num b" transform="translate(1395.5,760)"><rect x="-14" y="-9" width="28" height="18" rx="9"/><text y="4">Б7</text></g>
+  <g class="num b" transform="translate(1570.5,760)"><rect x="-14" y="-9" width="28" height="18" rx="9"/><text y="4">Б8</text></g>
+
   <!-- Легенда, скорочення, клавіші -->
   <rect x="20" y="780" width="1560" height="124" rx="8" fill="#f8fafc" stroke="#e2e8f0"/>
   <rect x="40" y="797" width="20" height="14" rx="3" class="box hr"/><text x="68" y="809" class="m">Відділ кадрів</text>
@@ -256,6 +285,9 @@
   <path d="M440,834 L488,834" class="aux"/><text x="498" y="838" class="m">наслідок у системі</text>
   <path d="M660,834 L708,834" class="bflow"/><text x="718" y="838" class="m">шлях Б</text>
   <circle cx="800" cy="834" r="7" fill="#f59e0b" stroke="#ffffff" stroke-width="2"/><text x="816" y="838" class="m">наказ (анімація)</text>
+  <g class="num" transform="translate(951,834)"><rect x="-11" y="-9" width="22" height="18" rx="9"/><text y="4">1</text></g>
+  <g class="num b" transform="translate(981,834)"><rect x="-14" y="-9" width="28" height="18" rx="9"/><text y="4">Б1</text></g>
+  <text x="1003" y="838" class="m">номер дії</text>
   <text x="1560" y="838" class="s" style="text-anchor:end">Деталі: ispro-hiring-order.md · налаштування захисту: ispro-order-protection-settings.md</text>
 
   <line x1="40" y1="850" x2="1560" y2="850" stroke="#e2e8f0" stroke-width="1"/>
